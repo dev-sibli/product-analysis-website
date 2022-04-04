@@ -1,4 +1,5 @@
 import React from 'react';
+import Rating from 'react-rating';
 
 const Review = (props) => {
 	const { name, image, about } = props.review;
@@ -11,8 +12,11 @@ const Review = (props) => {
 					alt=""
 				/>
 				<div className="px-6 py-4 text-center">
-					<div className="font-bold text-xl mb-2">{name}</div>
-					<p className="text-gray-700 text-base">{about}</p>
+					<div>
+						<Rating initialRating={4.5} readonly />
+					</div>
+					<p className="text-black-700 text-base">{about}</p>
+					<div className="font-bold text-xl mt-5">{name}</div>
 				</div>
 			</div>
 		</>
