@@ -1,17 +1,11 @@
-// import React, { useEffect, useState } from 'react';
 import useReview from '../../hooks/useReview';
 import Review from '../Review/Review';
 
 const Reviews = () => {
 	const [reviews, setReviews] = useReview([]);
 
-	// useEffect(() => {
-	// 	fetch('reviews.json')
-	// 		.then((res) => res.json())
-	// 		.then((data) => setReviews(data));
-	// }, []);
 	return (
-		<div className="container mx-auto gap-10 grid grid-cols-3 mt-8">
+		<div className="container mx-auto gap-10 grid lg:grid-cols-3 sm:grid-cols-1 m-4">
 			{reviews.map((review) => (
 				<Review key={review.id} review={review}></Review>
 			))}

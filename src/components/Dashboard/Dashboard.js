@@ -17,10 +17,10 @@ const Dashboard = () => {
 			.then((res) => res.json())
 			.then((data) => setElement(data));
 	}, []);
-	console.log(element);
+
 	return (
 		<>
-			<div className="flex justify-center items-center">
+			<div className="lg:flex justify-center items-center mt-5">
 				<LineChart
 					width={800}
 					height={400}

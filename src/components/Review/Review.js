@@ -5,7 +5,7 @@ const Review = (props) => {
 	const { name, image, about, rating } = props.review;
 	return (
 		<div>
-			<div className="max-w-sm rounded overflow-hidden bg-gray-300 h-full">
+			<div className="rounded overflow-hidden bg-gray-300 h-full">
 				<img
 					className="w-[150px] mx-auto rounded-full mt-5"
 					src={image}
