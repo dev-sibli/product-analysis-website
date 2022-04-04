@@ -1,27 +1,41 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useReview from '../../hooks/useReview';
+import Review from '../Review/Review';
 import './Home.css';
 
 const Home = () => {
+	const [reviews, setReviews] = useReview();
+	const slicedReviews = reviews.slice(0, 3);
 	return (
-		<div className="items-center">
+		<div className="container mx-auto">
 			<div className="flex items-center justify-center mt-8">
 				<div className="">
-					<h1 className="text-3xl font-mono">Which Mac is right for you?</h1>
+					<h1 className="text-5xl font-bold  mb-3">Supercharged for pros.</h1>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-						sequi consequatur?
+						if you need a true workhorse of a laptop and you want to stay in the
 					</p>
-					<button className="bg-red-400 p-2 rounded mt-3">Live Demo</button>
+					<p>
+						Apple ecosystem, I'd say this MacBook Pro is very much worth the
+						price
+					</p>
+					<button className="bg-[orange] p-3 rounded mt-3 font-bold">
+						Live Demo
+					</button>
 				</div>
-				<div className="w-50 mr-0">
+				<div className="w-25">
 					<img src="/images/macbook-pro.png" alt="" />
 				</div>
 			</div>
 			<div className="text-center mx-auto mt-8">
-				<h2 className="text-4xl font-mono">Customer Reviews</h2>
+				<h2 className="text-4xl font-bold">Customer Reviews</h2>
+				<div className=" gap-20 grid grid-cols-3 mt-8">
+					{slicedReviews.map((review) => (
+						<Review key={review.id} review={review}></Review>
+					))}
+				</div>
 				<Link to="/reviews">
-					<button className="bg-red-400 p-2 rounded mt-3">
+					<button className="bg-[orange] p-3 rounded my-5 font-bold">
 						See All reviews
 					</button>
 				</Link>

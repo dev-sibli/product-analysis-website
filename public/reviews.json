@@ -2,37 +2,43 @@
 	{
 		"id": "624a600dd1187ac224fbcd50",
 		"image": "/images/user-1.jpg",
-		"about": "Culpa non magna adipisicing commodo non nisi. Sit eu irure aute culpa magna ex laboris anim dolore eu consectetur incididunt laborum irure. Aliqua magna cupidatat excepteur id anim nisi. Culpa qui irure mollit aliqua mollit excepteur consectetur sunt aute consectetur.\r\n",
-		"name": "Alexander Watts"
+		"about": "I am writing this review focused primarily on people who are considering jumping from the 13 MacBook Pro to the 14 MacBook Pro, which is what I did. I moved from the 13 MacBook Pro M1 with 16gb of RAM to the 14 MacBook Pro M1 Pro with 16gb of RAM.",
+		"name": "Alexander Watts",
+		"rating": "5"
 	},
 	{
 		"id": "624a600dacd746060efc0af6",
 		"image": "/images/user-2.jpg",
-		"about": "Consectetur Lorem tempor laboris aliquip ut est sit eiusmod. Consequat id enim officia et aliquip duis mollit in amet consequat. Eiusmod nulla nisi consequat ullamco non eiusmod adipisicing. Magna deserunt fugiat reprehenderit tempor tempor irure irure pariatur minim in.\r\n",
-		"name": "Sweet Rodriguez"
+		"about": "I haven't upgraded my computer for more than a decade, so it would stand to reason any recent releases would impress me, but this macbook pro has gone above and beyond in the small time I've had it.",
+		"name": "Sweet Rodriguez",
+		"rating": "4.5"
 	},
 	{
 		"id": "624a600db4c41d727201070e",
 		"image": "/images/user-3.jpg",
-		"about": "Et incididunt dolore ut et aliqua. Fugiat voluptate ad proident exercitation. Dolor excepteur consectetur id consectetur consectetur sit laboris ea voluptate fugiat minim eiusmod ad qui. Nulla dolor in mollit eiusmod consectetur quis. Reprehenderit dolor ut aliquip officia est nisi enim pariatur adipisicing.\r\n",
-		"name": "Powell Mclean"
+		"about": "The screen is truly something to behold. Smooth, clear, just beautiful. I don't typically care about bezels, but I might start. The expanded screen makes an unexpected difference. Meanwhile, I barely notice the notch. Apple said they'd find workarounds to make it scarce, and they have.",
+		"name": "Powell Mclean",
+		"rating": "4"
 	},
 	{
 		"id": "624a600df2eade0516d2ecb2",
 		"image": "/images/user-4.jpg",
-		"about": "Sint deserunt eu et duis enim. Elit aliqua excepteur aliqua ut in consequat cillum incididunt. Ullamco voluptate laboris amet et laborum quis. Dolor commodo enim enim voluptate cupidatat. Elit ullamco elit labore ex. Veniam mollit sunt sint pariatur amet. Officia ut tempor amet Lorem sunt ex aute tempor.\r\n",
-		"name": "Joseph Cleveland"
+		"about": "M1 pro chip is super powerful - photo/video editing, graphic design - this thing just kills it. Compared to previous MacBook Pro, it's a giant leap ahead. These tasks are a main reason to buy the pro version of the Macbook. This particularly model is the lower end of the spec you can get for a pro, but it still kicks butt.",
+		"name": "Joseph Cleveland",
+		"rating": "5"
 	},
 	{
 		"id": "624a600d19e453fc4a298f6e",
 		"image": "/images/user-5.jpg",
-		"about": "Nulla sint fugiat ea est tempor sit deserunt non aliquip et mollit. Ex anim ea est esse elit aliqua exercitation nisi consectetur dolor. Aliqua ea culpa pariatur veniam cupidatat nulla pariatur ipsum consectetur officia do sit ut ullamco. Eu irure reprehenderit voluptate ullamco esse occaecat quis ad. Elit qui officia occaecat irure pariatur laborum reprehenderit do laborum ut sint irure excepteur.\r\n",
-		"name": "Marquita Cannon"
+		"about": "In the short time I've had the computer, it's been nothing but fast. Probably more computer than I need, so if you're a sound editor or photographer, this review probably isn't for you",
+		"name": "Marquita Cannon",
+		"rating": "4"
 	},
 	{
 		"id": "624a600d547d461703367538",
 		"image": "/images/user-6.jpg",
-		"about": "Lorem laborum occaecat eiusmod voluptate do aliquip. Amet ad eiusmod et non laborum pariatur nulla et. Irure fugiat deserunt occaecat sit in voluptate sunt elit eiusmod veniam in ea adipisicing id. Esse ipsum labore cillum nostrud consectetur minim ad aliquip et.\r\n",
-		"name": "Harmon Johnson"
+		"about": "I have a Macbook Pro covered by Apple care. The computer needs a new battery. To make a long story short Apple left me for months with a computer, again under warranty, which I can use for a couple of hours for simple tasks like web browsing before it needs to be recharged.",
+		"name": "Harmon Johnson",
+		"rating": "5"
 	}
 ]
